@@ -19,9 +19,7 @@ function App() {
     setSearchValue(e.target.value);
   };
 
- 
-
-  const filteredCoins = coins.filter((coin) =>
+  const filterCoins = coins.filter((coin) =>
     coin.name.toLowerCase().includes(searchValue.toLowerCase())
   );
 
@@ -33,7 +31,7 @@ function App() {
       <GlobalStyle />
       <Search action={handleChange} />
       <ThemeToggle action={themeToggle} />
-      {filteredCoins.map((coin) => (
+      {filterCoins.map((coin) => (
         <CoinItem
           key={coin.id}
           name={coin.name}

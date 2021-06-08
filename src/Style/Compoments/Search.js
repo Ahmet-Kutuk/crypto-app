@@ -14,7 +14,7 @@ export const SearchBar = styled.input`
     position: absolute;
     left: 20px;
     top: 70px;
-    width: 375px;
+    width: 370px;
   }
 
   @media (min-width: 768px) {
