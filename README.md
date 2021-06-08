@@ -1,7 +1,7 @@
 [LiveDemo](https://youthful-leavitt-981686.netlify.app/)
 
 
-#Crypto App
+# Crypto App
 
 An application where you can use crypto money and search.
 
