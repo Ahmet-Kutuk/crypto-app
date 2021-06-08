@@ -1,11 +1,11 @@
-import React from 'react';
-import { SearchBar } from '../../Style/Compoments/Search';
-function Search() {
-    return (
-        <>
-            <SearchBar placeholder="Search.."></SearchBar>
-        </>
-    )
+import React from "react";
+import { SearchBar } from "../../Style/Compoments/Search";
+function Search(props) {
+  return (
+    <>
+      <SearchBar onChange={props.action} placeholder="Search.."></SearchBar>
+    </>
+  );
 }
 
-export default Search
+export default Search;
